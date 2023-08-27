@@ -5,7 +5,7 @@ export const Post = ({ post, selectTag }) => {
 
         <div className='col-3 m-2' >
             <div className="card ">
-                <div className="card-header">{post.title}</div>
+                <div className="card-header"><p>{post.title}</p></div>
                 <div className="card-body">{post.body}</div>
                 <div className="card-footer">
                     {post.tags.map((tag, index) => {
