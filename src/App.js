@@ -39,7 +39,6 @@ function App() {
             {sidebarData && <Sidebar sidebarData={sidebarData} selectTag={selectTag} currentTag={currentTag}/>}
           </div>
           <PostLayout postData={postData} currentTag={currentTag} selectTag={selectTag} />
-
         </div>
       </div>
     </>
